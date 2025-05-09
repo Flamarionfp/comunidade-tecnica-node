@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect } from "vitest";
 
 import { InMemoryUserRepository } from "../../src/repositories/in-memory/user";
 import { MockEmailService } from "../mocks/email-service";
